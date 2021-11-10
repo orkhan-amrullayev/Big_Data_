@@ -1,4 +1,4 @@
-# Big_Data_
+# Cassandra Data Modeling
 
 # Introduction
 
