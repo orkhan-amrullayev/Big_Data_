@@ -1,25 +1,36 @@
 # Big_Data_
 
-Introducion
+# Introduction
+
+<br>
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analysis team is particularly interested in understanding what songs users are listening to. Currently, there is no easy way to query the data to generate the results, since the data reside in a directory of CSV files on user activity on the app.
+<br>
 We create an Apache Cassandra database which can create queries on song play data to answer the questions. Then we test database by running queries from Sparkify to create the results.
+<br>
 We create an ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
+<br>
+<br>
+<br>
 
-
-Datasets
+# Datasets
 For this project, you'll be working with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
 
 event_data/2018-11-08-events.csv
 event_data/2018-11-09-events.csv
+<br>
+<br>
 
-Project Template
+# Project Template
 The project template includes one Jupyter Notebook file, in which:
+<br>
+- We process the event_datafile_new.csv dataset to create a denormalized dataset
+- We will model the data tables keeping in mind the queries we need to run
+- We have been provided queries that we will need to model the data tables for
+- We will load the data into tables we create in Apache Cassandra and run the queries
 
-We process the event_datafile_new.csv dataset to create a denormalized dataset
-We will model the data tables keeping in mind the queries we need to run
-We have been provided queries that we will need to model the data tables for
-We will load the data into tables we create in Apache Cassandra and run the queries
-Project Steps
+<br>
+
+# Project Steps
 Modeling the NoSQL database or Apache Cassandra database
 
 Design tables to answer the queries outlined in the project template
